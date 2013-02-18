@@ -1,0 +1,11 @@
+{
+  "name": "splicedlime",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "flour": "*",
+    "uglify-js": "*",
+    "coffee-script": "*",
+    "jshint": "*"
+  }
+}
