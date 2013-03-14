@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "ycssmin": ">=1.0.0"
+  },
+  "devDependencies": {
     "flour": "*",
     "uglify-js": "*",
     "coffee-script": "*",
