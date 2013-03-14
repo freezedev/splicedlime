@@ -7,7 +7,7 @@ JSONtoCSS = (object, options) ->
     queue = []
   
     for own key, value of object
-      if typeof object is 'object'
+      if typeof value is 'object'
         for own subKey, subValue of value
           cssContent += "#{key} {"
           if typeof subValue is 'object'
@@ -21,9 +21,11 @@ JSONtoCSS = (object, options) ->
 
           
         
-       for q in queue
-         cssContent += "#{key} #{q}"
+         for q in queue
+           cssContent += "#{key} #{q}"
 
      cssContent
 
   JSONtoString object
+  
+module.exports = JSONtoCSS
