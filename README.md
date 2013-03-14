@@ -1,4 +1,5 @@
-splicedlime
-===========
+Spliced Lime
+============
 
-CSS parser written CoffeeScript
+CSS to JSON and JSON to CSS converter
+
