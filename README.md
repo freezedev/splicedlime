@@ -1,7 +1,7 @@
 Spliced Lime
 ============
 
-Spliced Lime is a utility for converting CSS to JSON and the other way around.  
+Spliced Lime is a utility for converting CSS to JSON and/or the other way around.  
 Spliced Lime can be used as a library (to be called programatically) or as an command-line application.
 
 It is intended for using CSS in environment that don't usually support CSS, such as:
